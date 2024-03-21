@@ -1,7 +1,7 @@
 #read file
-group <- read.csv()
-pri <- read.csv()
-pri$ID<- rownames(pri)
+group <- read.csv()  #Grouping file on Non_HDL_c
+
+pri <- read.csv() # Species/metabolic capacities/metabolites file
 
 #merge two files and wilcox test
 wilcox.p <- NULL
